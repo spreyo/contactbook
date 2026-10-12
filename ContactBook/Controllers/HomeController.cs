@@ -23,6 +23,10 @@ namespace ContactBook.Controllers
             return View(contacts);
         }
 
+        public IActionResult ContactDetail()
+        {
+            
+        }
         public IActionResult Privacy()
         {
             return View();
